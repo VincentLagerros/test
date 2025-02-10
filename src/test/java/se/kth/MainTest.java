@@ -8,13 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MainTest {
     @Test
     public void testValid(){
-        boolean result = Main.test();
-        assertTrue(result);
-    }
-
-    @Test
-    public void testInvalid(){
-        boolean result = Main.test();
-        assertFalse(!result);
+        int result = Main.test(1, 2);
+        assertEquals(3, result);
     }
 }
