@@ -17,4 +17,10 @@ public class MainTest {
         boolean result = Main.test();
         assertFalse(!result);
     }
+
+    @Test
+    public void testInvalidReal(){
+        boolean result = Main.test();
+        assertFalse(result);
+    }
 }
