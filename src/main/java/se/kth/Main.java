@@ -7,6 +7,7 @@ public class Main{
     }
 
     public static boolean test(){
+        
         return true;
     }
 }
